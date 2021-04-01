@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FirstTestngPrgm {
-@Test(priority=1)
+@Test(priority=1 )
 
 public void login() throws InterruptedException
 {
@@ -37,7 +37,7 @@ public void login() throws InterruptedException
 	
 }
 
-@Test
+@Test (enabled=false)
 
 public void register()
 {
