@@ -45,6 +45,7 @@ public void register()
 	WebDriver driver=new FirefoxDriver();
 	
 	//WebDriverManager.FirefoxDriver.Setup();
+	//Trying to push
 	driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	driver.get("http://magento.com");
 	driver.findElement(By.xpath("/html/body/div[1]/header/div[1]/div/div[2]/div/nav/ul/li[9]/a/span[1]/div")).click();
